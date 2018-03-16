@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloBlueBird</string>
+    <string name="business_name">BROO \"Blue Bird\"</string>
+    <string name="business_about">Helping children with autistic disorders and their families in Belgorod region</string>
+    <string name="business_address">Russia, Belgorod, 50 years of Belgorod region, 14</string>
+    <string name="business_contacts">+79102247574\nautism31.ru</string>
+    <string name="business_logo_desc">\"Blue Bird\" logo</string>
+</resources>

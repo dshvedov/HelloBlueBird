@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ru.d9d.hellobluebird.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/imageBackground"
+            android:scaleType="centerCrop"
+            android:src="@drawable/puzzle" />
+
+        <ImageView
+            android:id="@+id/bird"
+            android:layout_width="@dimen/logo"
+            android:layout_height="@dimen/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/business_logo_desc"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bird_logo" />
+    </RelativeLayout>
+
+    <TextView
+        style="@style/ContactsHeader"
+        android:paddingBottom="@dimen/spacing"
+        android:paddingTop="@dimen/margin"
+        android:text="@string/business_name" />
+
+    <TextView
+        style="@style/ContactsText"
+        android:drawableLeft="@drawable/icon_info"
+        android:paddingBottom="@dimen/spacing"
+        android:text="@string/business_about" />
+
+    <TextView
+        style="@style/ContactsText"
+        android:autoLink="all"
+        android:drawableLeft="@drawable/icon_map"
+        android:paddingBottom="@dimen/spacing"
+        android:text="@string/business_address" />
+
+    <TextView
+        style="@style/ContactsText"
+        android:autoLink="all"
+        android:drawableLeft="@drawable/icon_call"
+        android:paddingBottom="@dimen/margin"
+        android:text="@string/business_contacts" />
+</LinearLayout>

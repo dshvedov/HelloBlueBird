@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloBlueBird</string>
+    <string name="business_name">БРОО \"Синяя птица\"</string>
+    <string name="business_about">Помощь детям с аутизмом и их семьям в Белогорье</string>
+    <string name="business_address">Россия, Белгород, ул. 50-летия Белгородской области, 14</string>
+    <string name="business_contacts">+79102247574\nautism31.ru</string>
+    <string name="business_logo_desc">Лого \"Синяя птица\" logo</string>
+</resources>
